@@ -7,7 +7,7 @@ module.exports =  class RealSet extends Set {
         unionSet.refStore=[this,setB];
         unionSet.refresh = ()=>{
                 return unionSet.refStore[0].union(unionSet.refStore[1]);
-            }
+        }
         const [larger,smaller] = this.size>setB.size?[this,setB]:[setB,this];
         for(let itemX of larger){
             unionSet.add(itemX);
@@ -17,7 +17,7 @@ module.exports =  class RealSet extends Set {
         }
         return unionSet;
 	}
-  intersect(setB){
+    intersect(setB){
         const intersectSet = new RealSet([]);
         intersectSet.refStore=[this,setB];
         intersectSet.refresh = ()=>{
