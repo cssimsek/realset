@@ -1,8 +1,8 @@
 {
   "name": "realset-implementation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RealSet extends Set with union and intersect methods.",
-  "main": "index.js",
+  "main": "realset.js",
   "repository": "git@github.com:cssimsek/realset",
   "author": "cssimsek <cem@cemsimsek.com>",
   "license": "Apache-2.0",
