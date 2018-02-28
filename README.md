@@ -19,11 +19,16 @@ let intersectSet = realSetInstance1.intersect(realSetInstance2);
 let unionSet = realSetInstance1.union(realSetInstance2);
 
 console.log(`Intersect: ${Array.from(intersectSet.values())}`);
+//Logs Intersect: 5
+
 console.log(`Union: ${Array.from(unionSet.values())}`);
+//Logs Union: 0,1,2,3,4,5,6,7,8,9
 
 //Update instance following mutation in parents
 realSetInstance1.add(6);
 intersectSet=intersectSet.refresh();
+console.log(`Intersect: ${Array.from(intersectSet.values())}`);
+//Logs Intersect: 5,6
 
 ```
 
