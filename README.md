@@ -4,7 +4,12 @@ RealSet is a class that extends the standard Set implementation in JavaScript wi
 
 ## Getting Started
 
-The file realset.js contains example usage.
+```javascript
+npm i realset-implementation
+or
+yarn add realset-implementation
+
+```
 
 ### Example usage
 
