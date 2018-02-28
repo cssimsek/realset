@@ -8,7 +8,7 @@ The file realset.js contains example usage.
 
 ### Example usage
 
-```
+```javascript
 const realSetInstance1 = new RealSet([]);
 const realSetInstance2 = new RealSet([]);
 for(let i=0;i<10;i+=1){
